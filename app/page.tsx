@@ -23,14 +23,14 @@ export default function HomePage() {
           alt=""
           width={300}
           height={400}
-          className="absolute top-0 right-0 opacity-15"
+          className="absolute top-0 right-0 opacity-20"
         />
         <Image
           src="/images/flowers.png"
           alt=""
           width={250}
           height={350}
-          className="absolute bottom-0 left-0 opacity-15 -rotate-45"
+          className="absolute bottom-0 left-0 opacity-20 -rotate-45"
         />
       </div>
 
@@ -44,7 +44,7 @@ export default function HomePage() {
                   loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
                 }`}
               >
-                <h1 className="text-8xl md:text-7xl font-script text-amber-700 leading-tight">
+                <h1 className="text-8xl md:text-[12rem] font-script text-[#dec568] leading-tight">
                   <span className="block ml-0" style={{ fontFamily: "Dancing Script, cursive" }}>
                     Laura
                   </span>
@@ -66,7 +66,7 @@ export default function HomePage() {
                 <Link href="/invitacion">
                   <Button
                     variant="ghost"
-                    className="text-2xl font-light text-amber-700 hover:text-amber-800 hover:bg-transparent p-4 border border-amber-700/30 hover:border-amber-700/50 transition-all duration-300"
+                    className="text-2xl md:text-3xl font-light text-[#dec568] hover:text-[#dec568] hover:bg-transparent p-4 border-2 border-[#dec568]/30 hover:border-[#dec568]/50 transition-all duration-300"
                   >
                     INVITACIÓN
                   </Button>

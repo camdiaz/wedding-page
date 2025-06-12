@@ -7,9 +7,7 @@ import { MusicProvider, MusicControl } from "@/components/music-player"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Laura & John - Boda 2025",
-  description: "Invitación de boda de Laura y John - 20 de Septiembre 2025",
-    generator: 'v0.dev'
+  title: "Laura & John",
 }
 
 export default function RootLayout({
@@ -24,6 +22,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" href="/images/flowers.png" type="image/png" />
       </head>
       <body className={inter.className}>
         <MusicProvider>
