@@ -91,7 +91,7 @@ export default function InvitacionPage() {
               className="text-3xl md:text-5xl font-script text-white mb-4"
               style={{ fontFamily: "Dancing Script, cursive" }}
             >
-              Tú y yo. Solo nosotros dos.
+              Por un nuevo camino juntos
             </h2>
             <p className="text-white text-lg tracking-widest">20. 09. 2025</p>
           </div>
